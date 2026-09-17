@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+.next/
+out/
+build/
+dist/
+coverage/
+**/dist/
+**/.next/
+**/coverage/
+.turbo/
+**/.turbo/
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+*.log
+
+# Environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test / temp
+.tmp/
+.temp/
+.cache/
+
+# Prisma / database local files
+prisma/*.db
+prisma/*.db-journal
+
+# Optional: lockfile exceptions
+# Keep package manager lockfiles tracked
+# pnpm-lock.yaml
+# package-lock.json
+# yarn.lock
